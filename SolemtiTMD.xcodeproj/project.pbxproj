@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1226E6C628010FD7007C7B3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6C528010FD7007C7B3B /* AppDelegate.swift */; };
+		1226E6C828010FD7007C7B3B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6C728010FD7007C7B3B /* SceneDelegate.swift */; };
+		1226E6CA28010FD7007C7B3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6C928010FD7007C7B3B /* ViewController.swift */; };
+		1226E6CD28010FD7007C7B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1226E6CB28010FD7007C7B3B /* Main.storyboard */; };
+		1226E6CF28010FDA007C7B3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1226E6CE28010FDA007C7B3B /* Assets.xcassets */; };
+		1226E6D228010FDA007C7B3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1226E6D028010FDA007C7B3B /* LaunchScreen.storyboard */; };
+		1226E6DD28010FDB007C7B3B /* SolemtiTMDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6DC28010FDB007C7B3B /* SolemtiTMDTests.swift */; };
+		1226E6E728010FDB007C7B3B /* SolemtiTMDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6E628010FDB007C7B3B /* SolemtiTMDUITests.swift */; };
+		1226E6E928010FDB007C7B3B /* SolemtiTMDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226E6E828010FDB007C7B3B /* SolemtiTMDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1226E6D928010FDA007C7B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1226E6BA28010FD7007C7B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1226E6C128010FD7007C7B3B;
+			remoteInfo = SolemtiTMD;
+		};
+		1226E6E328010FDB007C7B3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1226E6BA28010FD7007C7B3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1226E6C128010FD7007C7B3B;
+			remoteInfo = SolemtiTMD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1226E6C228010FD7007C7B3B /* SolemtiTMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolemtiTMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1226E6C528010FD7007C7B3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1226E6C728010FD7007C7B3B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1226E6C928010FD7007C7B3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1226E6CC28010FD7007C7B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1226E6CE28010FDA007C7B3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1226E6D128010FDA007C7B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1226E6D328010FDA007C7B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1226E6D828010FDA007C7B3B /* SolemtiTMDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolemtiTMDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1226E6DC28010FDB007C7B3B /* SolemtiTMDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolemtiTMDTests.swift; sourceTree = "<group>"; };
+		1226E6E228010FDB007C7B3B /* SolemtiTMDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolemtiTMDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1226E6E628010FDB007C7B3B /* SolemtiTMDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolemtiTMDUITests.swift; sourceTree = "<group>"; };
+		1226E6E828010FDB007C7B3B /* SolemtiTMDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolemtiTMDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1226E6BF28010FD7007C7B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6D528010FDA007C7B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6DF28010FDB007C7B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1226E6B928010FD7007C7B3B = {
+			isa = PBXGroup;
+			children = (
+				1226E6C428010FD7007C7B3B /* SolemtiTMD */,
+				1226E6DB28010FDB007C7B3B /* SolemtiTMDTests */,
+				1226E6E528010FDB007C7B3B /* SolemtiTMDUITests */,
+				1226E6C328010FD7007C7B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1226E6C328010FD7007C7B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1226E6C228010FD7007C7B3B /* SolemtiTMD.app */,
+				1226E6D828010FDA007C7B3B /* SolemtiTMDTests.xctest */,
+				1226E6E228010FDB007C7B3B /* SolemtiTMDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1226E6C428010FD7007C7B3B /* SolemtiTMD */ = {
+			isa = PBXGroup;
+			children = (
+				1226E6C528010FD7007C7B3B /* AppDelegate.swift */,
+				1226E6C728010FD7007C7B3B /* SceneDelegate.swift */,
+				1226E6C928010FD7007C7B3B /* ViewController.swift */,
+				1226E6CB28010FD7007C7B3B /* Main.storyboard */,
+				1226E6CE28010FDA007C7B3B /* Assets.xcassets */,
+				1226E6D028010FDA007C7B3B /* LaunchScreen.storyboard */,
+				1226E6D328010FDA007C7B3B /* Info.plist */,
+			);
+			path = SolemtiTMD;
+			sourceTree = "<group>";
+		};
+		1226E6DB28010FDB007C7B3B /* SolemtiTMDTests */ = {
+			isa = PBXGroup;
+			children = (
+				1226E6DC28010FDB007C7B3B /* SolemtiTMDTests.swift */,
+			);
+			path = SolemtiTMDTests;
+			sourceTree = "<group>";
+		};
+		1226E6E528010FDB007C7B3B /* SolemtiTMDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1226E6E628010FDB007C7B3B /* SolemtiTMDUITests.swift */,
+				1226E6E828010FDB007C7B3B /* SolemtiTMDUITestsLaunchTests.swift */,
+			);
+			path = SolemtiTMDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1226E6C128010FD7007C7B3B /* SolemtiTMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1226E6EC28010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMD" */;
+			buildPhases = (
+				1226E6BE28010FD7007C7B3B /* Sources */,
+				1226E6BF28010FD7007C7B3B /* Frameworks */,
+				1226E6C028010FD7007C7B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SolemtiTMD;
+			productName = SolemtiTMD;
+			productReference = 1226E6C228010FD7007C7B3B /* SolemtiTMD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1226E6D728010FDA007C7B3B /* SolemtiTMDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1226E6EF28010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMDTests" */;
+			buildPhases = (
+				1226E6D428010FDA007C7B3B /* Sources */,
+				1226E6D528010FDA007C7B3B /* Frameworks */,
+				1226E6D628010FDA007C7B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1226E6DA28010FDA007C7B3B /* PBXTargetDependency */,
+			);
+			name = SolemtiTMDTests;
+			productName = SolemtiTMDTests;
+			productReference = 1226E6D828010FDA007C7B3B /* SolemtiTMDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1226E6E128010FDB007C7B3B /* SolemtiTMDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1226E6F228010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMDUITests" */;
+			buildPhases = (
+				1226E6DE28010FDB007C7B3B /* Sources */,
+				1226E6DF28010FDB007C7B3B /* Frameworks */,
+				1226E6E028010FDB007C7B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1226E6E428010FDB007C7B3B /* PBXTargetDependency */,
+			);
+			name = SolemtiTMDUITests;
+			productName = SolemtiTMDUITests;
+			productReference = 1226E6E228010FDB007C7B3B /* SolemtiTMDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1226E6BA28010FD7007C7B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					1226E6C128010FD7007C7B3B = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					1226E6D728010FDA007C7B3B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1226E6C128010FD7007C7B3B;
+					};
+					1226E6E128010FDB007C7B3B = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 1226E6C128010FD7007C7B3B;
+					};
+				};
+			};
+			buildConfigurationList = 1226E6BD28010FD7007C7B3B /* Build configuration list for PBXProject "SolemtiTMD" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1226E6B928010FD7007C7B3B;
+			productRefGroup = 1226E6C328010FD7007C7B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1226E6C128010FD7007C7B3B /* SolemtiTMD */,
+				1226E6D728010FDA007C7B3B /* SolemtiTMDTests */,
+				1226E6E128010FDB007C7B3B /* SolemtiTMDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1226E6C028010FD7007C7B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1226E6D228010FDA007C7B3B /* LaunchScreen.storyboard in Resources */,
+				1226E6CF28010FDA007C7B3B /* Assets.xcassets in Resources */,
+				1226E6CD28010FD7007C7B3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6D628010FDA007C7B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6E028010FDB007C7B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1226E6BE28010FD7007C7B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1226E6CA28010FD7007C7B3B /* ViewController.swift in Sources */,
+				1226E6C628010FD7007C7B3B /* AppDelegate.swift in Sources */,
+				1226E6C828010FD7007C7B3B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6D428010FDA007C7B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1226E6DD28010FDB007C7B3B /* SolemtiTMDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1226E6DE28010FDB007C7B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1226E6E928010FDB007C7B3B /* SolemtiTMDUITestsLaunchTests.swift in Sources */,
+				1226E6E728010FDB007C7B3B /* SolemtiTMDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1226E6DA28010FDA007C7B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1226E6C128010FD7007C7B3B /* SolemtiTMD */;
+			targetProxy = 1226E6D928010FDA007C7B3B /* PBXContainerItemProxy */;
+		};
+		1226E6E428010FDB007C7B3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1226E6C128010FD7007C7B3B /* SolemtiTMD */;
+			targetProxy = 1226E6E328010FDB007C7B3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1226E6CB28010FD7007C7B3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1226E6CC28010FD7007C7B3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1226E6D028010FDA007C7B3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1226E6D128010FDA007C7B3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1226E6EA28010FDB007C7B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1226E6EB28010FDB007C7B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1226E6ED28010FDB007C7B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SolemtiTMD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1226E6EE28010FDB007C7B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SolemtiTMD/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1226E6F028010FDB007C7B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolemtiTMD.app/SolemtiTMD";
+			};
+			name = Debug;
+		};
+		1226E6F128010FDB007C7B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SolemtiTMD.app/SolemtiTMD";
+			};
+			name = Release;
+		};
+		1226E6F328010FDB007C7B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolemtiTMD;
+			};
+			name = Debug;
+		};
+		1226E6F428010FDB007C7B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH3VQ3R3QY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.genaro.SolemtiTMDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SolemtiTMD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1226E6BD28010FD7007C7B3B /* Build configuration list for PBXProject "SolemtiTMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1226E6EA28010FDB007C7B3B /* Debug */,
+				1226E6EB28010FDB007C7B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1226E6EC28010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1226E6ED28010FDB007C7B3B /* Debug */,
+				1226E6EE28010FDB007C7B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1226E6EF28010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1226E6F028010FDB007C7B3B /* Debug */,
+				1226E6F128010FDB007C7B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1226E6F228010FDB007C7B3B /* Build configuration list for PBXNativeTarget "SolemtiTMDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1226E6F328010FDB007C7B3B /* Debug */,
+				1226E6F428010FDB007C7B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1226E6BA28010FD7007C7B3B /* Project object */;
+}
