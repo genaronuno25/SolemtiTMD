@@ -11,7 +11,7 @@ Swift
 
 How do I get set up?
 Install Cocoapods v1.9.1
-Execute pod Install
+ and Execute pod Install
 
 
 
