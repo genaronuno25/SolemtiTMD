@@ -7,14 +7,24 @@ iOS 13.3
 Swift
 
 
+
 How do I get set up?
 Install Cocoapods v1.9.1
+
 Execute pod Install
+
+
 
 
 External Libraries
 ViewAnimator: is a library for building complex iOS UIView animations in an easy way. It provides one line animations for any view included the ones which contain other views like UITableView and UICollectionView with its cells or UIStackView with its arrangedSubviews.
+
+
+
 PopupDialog: Popup Dialog is a simple, customizable popup dialog written in Swift.
+
+
+
 
 
 Technical stack
