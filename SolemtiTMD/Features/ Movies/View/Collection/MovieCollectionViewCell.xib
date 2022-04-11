@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieCollectionViewCell" customModule="SolemtiTMD" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="217"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="217"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cab-EC-gP2" customClass="CustomView" customModule="SolemtiTMD" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="217"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Dvi-Gl-6Sp">
+                                <rect key="frame" x="0.0" y="0.0" width="154" height="217"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="0tJ-tN-4ov"/>
+                                    <constraint firstAttribute="height" constant="217" id="TAh-ST-WUN"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="kMh-Lc-Vkt">
+                                <rect key="frame" x="67" y="98.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="W9q-tW-P2g"/>
+                                    <constraint firstAttribute="width" constant="20" id="a4X-hB-Yqi"/>
+                                </constraints>
+                            </activityIndicatorView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AY7-Rm-75c">
+                                <rect key="frame" x="0.0" y="194.5" width="154" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="AY7-Rm-75c" firstAttribute="leading" secondItem="cab-EC-gP2" secondAttribute="leading" id="3yO-W8-iGf"/>
+                            <constraint firstItem="Dvi-Gl-6Sp" firstAttribute="leading" secondItem="cab-EC-gP2" secondAttribute="leading" id="9uX-Ck-Wc9"/>
+                            <constraint firstAttribute="bottom" secondItem="AY7-Rm-75c" secondAttribute="bottom" constant="8" id="XGP-Zo-OtU"/>
+                            <constraint firstItem="kMh-Lc-Vkt" firstAttribute="centerX" secondItem="Dvi-Gl-6Sp" secondAttribute="centerX" id="Yp7-vd-ow4"/>
+                            <constraint firstItem="Dvi-Gl-6Sp" firstAttribute="top" secondItem="cab-EC-gP2" secondAttribute="top" id="j9H-Oe-3GS"/>
+                            <constraint firstAttribute="trailing" secondItem="Dvi-Gl-6Sp" secondAttribute="trailing" id="rLN-EA-xhi"/>
+                            <constraint firstItem="kMh-Lc-Vkt" firstAttribute="centerY" secondItem="Dvi-Gl-6Sp" secondAttribute="centerY" id="slM-Qg-qE3"/>
+                            <constraint firstAttribute="trailing" secondItem="AY7-Rm-75c" secondAttribute="trailing" id="sno-ma-SKB"/>
+                            <constraint firstAttribute="bottom" secondItem="Dvi-Gl-6Sp" secondAttribute="bottom" id="xb7-10-c6s"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="20" height="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cab-EC-gP2" secondAttribute="trailing" id="Ee9-NU-Mjf"/>
+                <constraint firstAttribute="bottom" secondItem="cab-EC-gP2" secondAttribute="bottom" id="TvM-5u-FF5"/>
+                <constraint firstItem="cab-EC-gP2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cI3-Gx-Q3H"/>
+                <constraint firstItem="cab-EC-gP2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vJd-pz-aG1"/>
+            </constraints>
+            <size key="customSize" width="160" height="231"/>
+            <connections>
+                <outlet property="aiLoading" destination="kMh-Lc-Vkt" id="hts-he-clO"/>
+                <outlet property="backGroundView" destination="cab-EC-gP2" id="Qfo-Vv-mhJ"/>
+                <outlet property="ivCoverMovie" destination="Dvi-Gl-6Sp" id="UXl-0w-GFV"/>
+                <outlet property="lbNameMovie" destination="AY7-Rm-75c" id="Gca-PP-d4o"/>
+            </connections>
+            <point key="canvasLocation" x="217.39130434782609" y="149.66517857142856"/>
+        </collectionViewCell>
+    </objects>
+</document>

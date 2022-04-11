@@ -1,0 +1,6 @@
+framework module Pods_SolemtiTMD_SolemtiTMDUITests {
+  umbrella header "Pods-SolemtiTMD-SolemtiTMDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
