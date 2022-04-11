@@ -3,6 +3,7 @@ Solemti test to validate development skills
 
 
 What is this repository for?
+
 iOS 13.3
 Swift
 
@@ -10,7 +11,6 @@ Swift
 
 How do I get set up?
 Install Cocoapods v1.9.1
-
 Execute pod Install
 
 
