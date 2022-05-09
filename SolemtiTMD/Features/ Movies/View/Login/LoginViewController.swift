@@ -48,9 +48,7 @@ class LoginViewController: UIViewController {
                 let viewModel = MovieViewModel()
                 let controller = MoviesViewController(viewModel: viewModel)
                 viewModel.coodinatorDelegate = self
-                if let nav = self.navigationController{
-                    nav.setViewControllers([controller], animated: true)
-                }
+                self.navigationController?.pushViewController(controller, animated: true)
                
             case .failure(let error):
                 DispatchQueue.main.async {

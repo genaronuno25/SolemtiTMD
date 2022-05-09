@@ -95,7 +95,7 @@ class MovieViewModel: MovieViewModelType {
     }
     
     func didSelectRow(_ row: Int, from controller: UIViewController) {
-        let movieSelect = self.movies[row] 
+        let movieSelect = self.movies[row]
         coodinatorDelegate?.didSelectedMovie(movie: movieSelect, from: controller)
     }
     
